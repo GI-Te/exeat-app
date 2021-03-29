@@ -1,0 +1,11 @@
+body{
+  padding: 30;
+  background-color: rgb(121, 206, 231);
+  color: rgb(2, 14, 12);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+container{
+  background-color: blue;
+}

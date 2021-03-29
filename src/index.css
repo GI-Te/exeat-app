@@ -1,0 +1,54 @@
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 12px;
+  
+}
+body {
+  background-color: #9c1de7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+button {
+  height: 40px;
+  border: 2px solid black;
+color: white;
+  background-color:green;
+}
+form {
+  align-items: center;
+  border: 1px solid white;
+width: 100%;
+box-shadow: 0px 10px 7px 5px teal;
+padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.container {
+  display: grid;
+grid-template-columns: 1fr 1fr;
+}
+input {
+  background-color: #fff;
+  height: 30px;
+  border: 2px solid black;
+}
+
+.card{
+border: 1px solid white;
+margin: 20px;
+box-shadow: 0px 5px 4px 3px;
+}
+
+footer {
+  height: 20vh;
+  font-size: x-large;
+  width: 100%;
+}
+
+
